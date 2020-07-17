@@ -1,0 +1,19 @@
+{
+    "name": "zijinghua-dev/mservice",
+    "type": "library",
+    "require": {
+        "laravel/framework": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zijinghua\\Mservice\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zijinghua\\Mservice\\ServiceProvider"
+            ]
+        }
+    }
+}
